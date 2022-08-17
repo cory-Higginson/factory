@@ -1,0 +1,15 @@
+# ninja log v5
+18	780	6823696535506157	CMakeFiles/Factory.dir/src/main.cpp.obj	bc53ad7cd7b3c890
+2	565	6823706894640045	CMakeFiles/Factory.dir/src/Game.cpp.obj	617a3a508a0b11af
+22	775	6823696535456549	CMakeFiles/Factory.dir/src/Builder.cpp.obj	a27dfa8aa6c411c0
+565	1334	6823706902256460	Factory.exe	6e9db888bdf36e36
+8	466	6817971022979672	CMakeFiles/Factory.dir/src/Placement.cpp.obj	3767d0a6bdf95f44
+13	468	6813733676380037	CMakeFiles/Factory.dir/src/StaticFunctions.cpp.obj	6de064444f524796
+4	435	6817971022667187	CMakeFiles/Factory.dir/src/Block.cpp.obj	5c729005bef2d958
+9	440	6817971022716788	CMakeFiles/Factory.dir/HelperFunctions/StaticFunctions.cpp.obj	e6f8e87abb09b9f1
+5	453	6817971022850719	CMakeFiles/Factory.dir/src/Chunk.cpp.obj	575e91e25dea6cc7
+11	472	6817971023029272	CMakeFiles/Factory.dir/tinyxml/tinyxml2.cpp.obj	f15e67134e8dd578
+23	653	6820686883385787	CMakeFiles/Factory.dir/src/Objects/Block.cpp.obj	c8f4f25216497339
+21	758	6823696535297836	CMakeFiles/Factory.dir/src/Objects/Chunk.cpp.obj	685c9070a8f7d820
+24	770	6823696535411916	CMakeFiles/Factory.dir/src/MapLoader.cpp.obj	d345b49ddef15563
+7	431	6820688133525716	CMakeFiles/Factory.dir/src/Conveyorlogic.cpp.obj	e2fd753a8e71dc72
