@@ -7,7 +7,6 @@
 #include <iostream>
 
 Game::Game(GameData &game_data, Builder buildvision) : State(game_data), buildvision(buildvision) {
-    data.placements.empty();
     for (int i = 0; i < 100; ++i) {
         for (int j = 0; j < 100; ++j) {
             data.placements[i][j] = nullptr;
@@ -89,7 +88,6 @@ void Game::render() {
     if (current_chunk != nullptr)
         for (auto &block: current_chunk->blocks) {
             data.window.draw(*std::get<sf::Sprite *>(block));
-            +
         }
 
     for (int x = min_x; x < max_x; ++x) {

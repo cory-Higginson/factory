@@ -13,3 +13,17 @@
 21	758	6823696535297836	CMakeFiles/Factory.dir/src/Objects/Chunk.cpp.obj	685c9070a8f7d820
 24	770	6823696535411916	CMakeFiles/Factory.dir/src/MapLoader.cpp.obj	d345b49ddef15563
 7	431	6820688133525716	CMakeFiles/Factory.dir/src/Conveyorlogic.cpp.obj	e2fd753a8e71dc72
+2	269	6824550916040506	build.ninja	f507e522e470dd79
+12	606	6824550922460913	CMakeFiles/Factory.dir/HelperFunctions/StaticFunctions.cpp.obj	e6f8e87abb09b9f1
+3	607	6824550922460913	CMakeFiles/Factory.dir/src/Objects/Chunk.cpp.obj	685c9070a8f7d820
+9	607	6824550922460913	CMakeFiles/Factory.dir/src/Objects/Block.cpp.obj	c8f4f25216497339
+7	610	6824550922500599	CMakeFiles/Factory.dir/src/Placement.cpp.obj	3767d0a6bdf95f44
+10	610	6824550922500599	CMakeFiles/Factory.dir/src/Conveyorlogic.cpp.obj	e2fd753a8e71dc72
+14	620	6824550922599793	CMakeFiles/Factory.dir/src/MapLoader.cpp.obj	d345b49ddef15563
+13	688	6824550923274359	CMakeFiles/Factory.dir/tinyxml/tinyxml2.cpp.obj	f15e67134e8dd578
+6	465	6824551285988237	CMakeFiles/Factory.dir/src/Builder.cpp.obj	a27dfa8aa6c411c0
+2	500	6824551286330476	CMakeFiles/Factory.dir/src/main.cpp.obj	bc53ad7cd7b3c890
+3	623	6824551715624012	CMakeFiles/Factory.dir/src/Game.cpp.obj	617a3a508a0b11af
+623	1565	6824551724989613	Factory.exe	6e9db888bdf36e36
+2	583	6824553688349856	CMakeFiles/Factory.dir/src/Game.cpp.obj	617a3a508a0b11af
+583	1351	6824553695970972	Factory.exe	6e9db888bdf36e36
