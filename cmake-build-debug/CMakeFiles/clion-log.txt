@@ -1,5 +1,0 @@
-C:\Users\mrmrcory\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3345.126\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/mrmrcory/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3345.126/bin/ninja/win/ninja.exe -G Ninja -S C:\Users\mrmrcory\Desktop\Factory -B C:\Users\mrmrcory\Desktop\Factory\cmake-build-debug
--- Found SFML 2.5.1 in C:/SFML-2.5.1/lib/cmake/SFML
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/mrmrcory/Desktop/Factory/cmake-build-debug
