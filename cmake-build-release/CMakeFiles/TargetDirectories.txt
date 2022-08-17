@@ -1,3 +1,0 @@
-C:/Users/mrmrcory/Desktop/Factory/cmake-build-release/CMakeFiles/Factory.dir
-C:/Users/mrmrcory/Desktop/Factory/cmake-build-release/CMakeFiles/edit_cache.dir
-C:/Users/mrmrcory/Desktop/Factory/cmake-build-release/CMakeFiles/rebuild_cache.dir
