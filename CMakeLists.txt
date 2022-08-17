@@ -17,7 +17,9 @@ set(SOURCE_FILES
         src/Placement.cpp src/Placement.h
         src/Builder.cpp src/Builder.h
         src/Objects/Chunk.cpp src/Objects/Chunk.h
-        src/Objects/Block.cpp src/Objects/Block.h src/MapLoader.cpp src/MapLoader.h src/Conveyorlogic.cpp src/Conveyorlogic.h)
+        src/Objects/Block.cpp src/Objects/Block.h
+        src/MapLoader.cpp src/MapLoader.h
+        src/Conveyorlogic.cpp src/Conveyorlogic.h)
 
 set(Helper_Files
         HelperFunctions/StaticFunctions.cpp
