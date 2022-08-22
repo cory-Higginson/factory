@@ -8,7 +8,7 @@
 #include <list>
 class Game : public State {
 public:
-    Game(GameData &game_data, Builder buildvision);
+    Game(GameData& game_data, Builder buildvision);
     bool init() override;
     void update(float dt) override;
     void render() override;
@@ -18,14 +18,15 @@ public:
     void mouseMoved(sf::Event event) override;
     void resize(sf::Event event) override;
 
+    void closed();
+
 private:
-    Chunk *current_chunk;
     sf::Font font;
     sf::Text info;
     Builder buildvision;
     sf::View defaultview;
     sf::View cam;
-    bool moveup;
-    bool movedown;
+    bool moveup = false;
+    bool movedown = false;
     conveyorlogic conveyor_logic;
 };

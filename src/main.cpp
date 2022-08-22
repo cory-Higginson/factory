@@ -4,7 +4,8 @@
 #include <SFML/Graphics.hpp>
 
 
-int main() {
+int main()
+{
     // create window and set up
     sf::RenderWindow window(sf::VideoMode(1920, 1080), "Factory", sf::Style::Default);
     window.setFramerateLimit(60);
@@ -29,11 +30,17 @@ int main() {
             splitter,
     };
 
+    sf::Texture stone;
+    stone.loadFromFile("Data/Stone.png");
+
+    blocks_texture blockstexture = {
+            stone};
+
     GameData gamedata = {
             window,
             false,
             font1, font2, font3,
-            conveyor,
+            conveyor, blockstexture,
             0,
             16.f};
 
@@ -41,7 +48,8 @@ int main() {
     Game game(gamedata, Builder(gamedata));
 
     //run the init function of the game class and check it all initializes OK
-    if (!game.init()) {
+    if (!game.init())
+    {
         return 0;
     }
 
@@ -49,7 +57,8 @@ int main() {
     sf::Clock clock;
 
     // Game loop: run the program as long as the window is open
-    while (window.isOpen()) {
+    while (window.isOpen())
+    {
         // check all the window's events that were triggered since the last iteration of the loop
         sf::Event event{};
 
@@ -58,11 +67,13 @@ int main() {
         float dt = time.asSeconds();
 
         //'process inputs' element of the game loop
-        while (window.pollEvent(event)) {
+        while (window.pollEvent(event))
+        {
             // "close requested" event: we close the window
-            switch (event.type) {
+            switch (event.type)
+            {
                 case sf::Event::Closed:
-                    gamedata.window.close();
+                    game.closed();
                     break;
                 case sf::Event::Resized:
                     game.resize(event);

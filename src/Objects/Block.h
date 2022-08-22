@@ -16,7 +16,9 @@ public:
     virtual std::string getname() { return custom_name; }
     std::string id;
     sf::Vector2i pos;
+    int rotation;
     std::string custom_name;
+    sf::Sprite sprite;
 };
 
 struct chest : public Block {
@@ -58,6 +60,5 @@ public:
     bool hasItems() {
         return item != nullptr;
     }
-
     item *item = nullptr;
 };
